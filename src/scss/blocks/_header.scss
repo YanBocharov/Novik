@@ -1,0 +1,24 @@
+.header {
+    hr {
+        border: 1px solid #828282;
+        border-top: none;
+    }
+    &__menu {
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__link {
+        display: block;
+        font-weight: 700;
+        font-size: 18px;
+        color: #070707;
+        transition: 0.5s all;
+        &:hover {
+            color: #828282;                               
+            text-decoration: none;
+            font-size: 20px;
+        }
+    }
+}

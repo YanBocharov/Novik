@@ -1,0 +1,31 @@
+.portfolio {
+    min-height: 2250px;
+    padding: 113px 0 100px 0;
+    background-color: #F6F6F6;
+    text-align: center;
+    img {
+        margin-top: 100px;
+        width: 100%;
+        &:nth-child(2) {
+            margin-top: 50px;
+        }
+    }
+    &__link {
+        display: block;
+        margin-top: 45px;
+        font-weight: 500;
+        font-size: 18px;
+        color: #070707;
+        text-decoration: underline;
+        transition: 0.5s all;
+        &:hover {
+            text-decoration: none;
+            font-size: 20px;
+            color: #828282;
+        }
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 34px;
+    }
+}

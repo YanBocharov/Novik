@@ -1,0 +1,33 @@
+.novik {
+    padding: 40px 0 30px 0;
+    min-height: 680px;
+    &__text {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 47px;
+        line-height: 55px;
+        margin-bottom: 0;
+    }
+    &__descr {
+        font-weight: 500;
+        font-size: 18px;
+        color: #070707;
+    }
+    &__lang {
+        transform: rotate(-90deg);
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    span {
+        color: #828282;
+    }
+    img {
+        padding: 50px 0 0 0;
+        width: 100%;
+    }
+}
